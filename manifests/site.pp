@@ -6,6 +6,7 @@ node default {
 
 node /^rasp/ {
   class { 'dhcp' :
+    dnsdomain   => ['borg.lan'],
     nameservers => ['192.168.1.4',
                     '8.8.8.8',
                     '8.8.4.4'],
