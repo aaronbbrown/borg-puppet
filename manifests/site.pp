@@ -7,7 +7,7 @@ node default {
 node /^rasp/ {
   class { 'dhcp' :
     dnsdomain   => ['borg.lan'],
-    interfaces  => $::interfaces,
+    interfaces  => ['eth0'],
     nameservers => ['192.168.1.4',
                     '8.8.8.8',
                     '8.8.4.4'],
