@@ -8,3 +8,4 @@ mod 'thias/bind'
 mod '9minutesnooze/borg',
   :git => 'git://github.com/9minutesnooze/borg-module.git'
 
+mod 'saz/timezone'

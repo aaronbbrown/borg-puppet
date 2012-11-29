@@ -2,6 +2,7 @@ FORGE
   remote: http://forge.puppetlabs.com
   specs:
     ripienaar/concat (0.2.0)
+    saz/timezone (1.1.0)
     thias/bind (0.2.4)
 
 GIT
@@ -22,5 +23,6 @@ GIT
 DEPENDENCIES
   9minutesnooze/borg (>= 0)
   dhcp (>= 0)
+  saz/timezone (>= 0)
   thias/bind (>= 0)
 
