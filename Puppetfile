@@ -7,7 +7,9 @@ mod 'dhcp',
   :git => 'git://github.com/puppetlabs/puppetlabs-dhcp.git'
 
 mod 'fr3nd/puppet-bind', 
-  :git => 'git://github.com/fr3nd/puppet-bind.git'
+  :git  => 'git://github.com/fr3nd/puppet-bind.git',
+  :path => 'modules/bind'
+
 mod 'anselm/concatfile', # undocumented depdendency for fr3nd/puppet-bind
   :git => 'git://github.com/9minutesnooze/puppet-concatfile.git'
 
