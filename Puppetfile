@@ -8,7 +8,8 @@ mod 'dhcp',
 
 mod 'fr3nd/puppet-bind', 
   :git => 'git://github.com/fr3nd/puppet-bind.git'
-mod 'anselm/concatfile' # undocumented depdendency for fr3nd/puppet-bind
+mod 'anselm/concatfile', # undocumented depdendency for fr3nd/puppet-bind
+  :git => 'git://github.com/9minutesnooze/puppet-concatfile.git'
 
 mod '9minutesnooze/borg',
   :git => 'git://github.com/9minutesnooze/borg-module.git'
