@@ -1,7 +1,9 @@
 class base {
   $base_packages = ['vim',
                     'git-core',
-                    'htop']
+                    'htop',
+                    'dnsutils']
+
   package { $base_packages : ensure => installed }
               
 }
