@@ -3,7 +3,6 @@ FORGE
   specs:
     ripienaar/concat (0.2.0)
     saz/timezone (1.1.0)
-    thias/bind (0.2.4)
 
 GIT
   remote: git://github.com/9minutesnooze/borg-module.git
@@ -11,6 +10,13 @@ GIT
   sha: 66ed110a5ad1924abd8e6addd8e731e3683987b4
   specs:
     9minutesnooze/borg (0.0.1)
+
+GIT
+  remote: git://github.com/fr3nd/puppet-bind.git
+  ref: master
+  sha: e4b19c5b46ce74c9ce0fb67237c3000304448466
+  specs:
+    fr3nd/puppet-bind (0.0.1)
 
 GIT
   remote: git://github.com/puppetlabs/puppetlabs-dhcp.git
@@ -23,6 +29,6 @@ GIT
 DEPENDENCIES
   9minutesnooze/borg (>= 0)
   dhcp (>= 0)
+  fr3nd/puppet-bind (>= 0)
   saz/timezone (>= 0)
-  thias/bind (>= 0)
 
