@@ -5,6 +5,6 @@ node default {
 }
 
 node /^rasp/ inherits default {
-  include borg::bind
-  include borg::dhcp
+  include borg::bind_server
+  include borg::dhcp_server
 }
