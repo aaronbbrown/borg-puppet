@@ -6,12 +6,8 @@ forge "http://forge.puppetlabs.com"
 mod 'dhcp',
   :git => 'git://github.com/puppetlabs/puppetlabs-dhcp.git'
 
-mod 'fr3nd/bind', 
-  :git => 'git://github.com/9minutesnooze/puppet-bind.git',
-  :ref => 'fixes'
-
-mod 'anselm/concatfile', # undocumented depdendency for fr3nd/puppet-bind
-  :git => 'git://github.com/9minutesnooze/puppet-concatfile.git'
+mod 'ajjahn/puppet_dns',
+  :git => 'git://github.com/9minutesnooze/puppet-dns.git'
 
 mod '9minutesnooze/borg',
   :git => 'git://github.com/9minutesnooze/borg-module.git'
